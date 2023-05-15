@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "640a0959e1223b660d8cf94d"
+  },
+  "nome": "ll",
+  "punteggio": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "640a099a754bf4e3162a6941"
+  },
+  "nome": "Libanese777",
+  "punteggio": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "640a0b47754bf4e3162a6944"
+  },
+  "nome": "Andrea",
+  "punteggio": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "640afdfee206597cfa620171"
+  },
+  "nome": "Andrea",
+  "punteggio": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "640afe00e206597cfa620173"
+  },
+  "nome": "Andrea",
+  "punteggio": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6410bf971b080dc09abe104c"
+  },
+  "nome": "Andrea",
+  "identificatore": "6407cba89c459e50e0b724a3",
+  "punteggio": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6410c0d71b080dc09abe1050"
+  },
+  "nome": "Andrea",
+  "identificatore": "6407cba89c459e50e0b724a3",
+  "punteggio": 3,
+  "__v": 0
+}]

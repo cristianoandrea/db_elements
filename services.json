@@ -1,0 +1,229 @@
+[{
+  "_id": {
+    "$oid": "63fe371581d5352b21c27e8a"
+  },
+  "tipo": "Veterinario",
+  "luogo": "Napoli",
+  "nome_struttura": {
+    "nome": "Casa degli Animali",
+    "img": "https://picsum.photos/200/300"
+  },
+  "dottore": [
+    {
+      "nome": "Antonio",
+      "prezzo": 50,
+      "slot": {
+        "n_grandi": 8,
+        "n_medi": 10,
+        "n_piccoli": 12
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe371581d5352b21c27e8b"
+      }
+    },
+    {
+      "nome": "Lucia",
+      "prezzo": 45,
+      "slot": {
+        "n_grandi": 7,
+        "n_medi": 6,
+        "n_piccoli": 10
+      },
+      "impegni": [
+        {
+          "dateiniz": {
+            "$date": "2023-03-01T12:30:00.000Z"
+          },
+          "_id": {
+            "$oid": "63ffaf0c7d0ca3e61223524a"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63fe371581d5352b21c27e8c"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63fe372081d5352b21c27e8e"
+  },
+  "tipo": "Dogsitting",
+  "luogo": "Firenze",
+  "nome_struttura": {
+    "nome": "Cani al Parco",
+    "img": "https://picsum.photos/200/300"
+  },
+  "dottore": [
+    {
+      "nome": "Giuseppe",
+      "prezzo": 25,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 4,
+        "n_piccoli": 6
+      },
+      "impegni": [
+        {
+          "dateiniz": {
+            "$date": "2023-03-20T19:39:00.000Z"
+          },
+          "datefin": {
+            "$date": "2023-03-21T19:39:00.000Z"
+          },
+          "n_grandi": 0,
+          "n_medi": 1,
+          "n_piccoli": 0,
+          "_id": {
+            "$oid": "640633713ef160ec812b1f81"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63fe372081d5352b21c27e8f"
+      }
+    },
+    {
+      "nome": "Anna",
+      "prezzo": 30,
+      "slot": {
+        "n_grandi": 3,
+        "n_medi": 4,
+        "n_piccoli": 5
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe372081d5352b21c27e90"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ec9bb6e0e00c71f26f2a3"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ecdbd6e0e00c71f26f2a5"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ecdc96e0e00c71f26f2a7"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ecdd16e0e00c71f26f2a9"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ecdd96e0e00c71f26f2ab"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ecde56e0e00c71f26f2ad"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ecdee6e0e00c71f26f2af"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ecdf86e0e00c71f26f2b1"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ecdff6e0e00c71f26f2b3"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ece076e0e00c71f26f2b5"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ece116e0e00c71f26f2b7"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ece186e0e00c71f26f2b9"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ece1d6e0e00c71f26f2bb"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ece246e0e00c71f26f2bd"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ece2a6e0e00c71f26f2bf"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ece326e0e00c71f26f2c1"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ece3a6e0e00c71f26f2c3"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ece426e0e00c71f26f2c5"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ece486e0e00c71f26f2c7"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ece4e6e0e00c71f26f2c9"
+  },
+  "dottore": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ece556e0e00c71f26f2cb"
+  },
+  "dottore": [],
+  "__v": 0
+}]

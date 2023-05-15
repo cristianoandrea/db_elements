@@ -1,0 +1,331 @@
+[{
+  "_id": {
+    "$oid": "6303a2ab3952c54b61188d07"
+  },
+  "email": "lello@gmail.com",
+  "password": "$2b$10$71d/zZ/hCLfQnVwjrlG.jO5FSzspjkukqiuB4nBqp4AN.sfoVSO3C",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6303a9cc3952c54b61188d0e"
+  },
+  "email": "lello1@gmail.com",
+  "password": "$2b$10$sKfLUhCi2G2GH/7QhIsKdORITXK2Q9oZ52AZV1VSYxTsyoNLoxAuq",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6304c175de15f42c85b4c13a"
+  },
+  "email": "lello2@gmail.com",
+  "password": "$2b$10$9tLUuk.sCymtQAuzVXDDf.hgJuz41FX6SBmhYT3qS.zAc6RZtZi92",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6321b5a29862de86f5ec01ff"
+  },
+  "email": "lellone@ok.it",
+  "password": "$2b$10$zLEW6qOV/FHOGsHY5gM.EeGAbYfVjHn1XHMjv35EsgeNWWEbBRM6y",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6321f45783881518f885192f"
+  },
+  "email": "elnardomercatelliiii@gmail.com",
+  "password": "$2b$10$hiruIHz.Rr7kt1Wpp0QqQOzk3U11fUYw/gG2J5nxYAGZT4vsUJNau",
+  "name": "lello",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6321f60683881518f8851933"
+  },
+  "email": "elnardomercatelliiiti@gmail.com",
+  "password": "$2b$10$KWKw39epE3NfS0jXL/mykuwAgXC4NkT3qHJTCnUUuwUUhsrun.0t6",
+  "name": "lello",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63234e78f231ddfdf99fc213"
+  },
+  "email": "elnardomercateeelli@gmail.com",
+  "password": "$2b$10$0X7KKsqnMtdQ2JLR1C8xCOHae0o1Q2j2jwVOzVImwB6XCrcbpCbyy",
+  "name": "OK",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63270267aa616585e422884a"
+  },
+  "email": "elnardomercatelliii@gmail.com",
+  "password": "$2b$10$mmCs.vKqupOmeFfS2D0U3.XeKMbg5eEGyJ0eYGrNK6tQGYD4jhzKq",
+  "name": "lel",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328890c12d60d49ca130e41"
+  },
+  "email": "elnardomercatello@gmail.com",
+  "password": "$2b$10$S4LGdkApIZ1kB0UPeychaOiecbttpQZ76I3a4f.tX7qxLGeYLyM06",
+  "name": "Merlinoo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63da9a100cf7433537a1c570"
+  },
+  "email": "leonardomercatelli@gmail.com",
+  "password": "$2b$10$wdYBii3tO6.gcCI3f356QuO.ksk2vE4Jz.QP8HFE7iH1Q4YTjq2kC",
+  "name": "leo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e423b934efe7f021e02735"
+  },
+  "email": "carlomaria@hotmail.it",
+  "password": "$2b$10$JX4bJIkG.YBtxPr5Kl8bwuXJtqaIjDOcEC9EhUQrTyx19Pc2O2Xf6",
+  "name": "leo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e67decc03389f9c2a7e1f3"
+  },
+  "email": "elnardomercatelli@gmail.com",
+  "password": "$2b$10$Hk1DI1VFUniSt.cExUn5cum5VmbZNGvp117Q40wX81n15r51g6f1q",
+  "name": "lello",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64026f7b76e13ca8ba3a4fe3"
+  },
+  "email": "aa@kk.it",
+  "password": "$2b$10$Kg3eJdBhFAQqw9WuppcSHOmYP3Nvp4UenRgxQxioFV.VBGxLVj9FO",
+  "name": "ao",
+  "cognome": "oa",
+  "animali": [
+    "dog"
+  ],
+  "nascita": "Sun Feb 20 2000 01:00:00 GMT+0100 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64038e8850a58ade74ccb914"
+  },
+  "email": "aao@kk.it",
+  "password": "$2b$10$Y4ZMaBGr2Zl.UXqcTNfyh.VBZTodrFTuTF/exlRxW0UsmhQp0Zn4i",
+  "name": "Andrea",
+  "cognome": "Cristiano",
+  "animali": [
+    "cat"
+  ],
+  "nascita": "Thu Nov 11 1999 01:00:00 GMT+0100 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6404de06412d7467a2c720b0"
+  },
+  "email": "qqq@w.it",
+  "password": "$2b$10$NT3Syqyaj8j7Kmim7IG8FOFoWsm599rQT6ibhkWpVx7LfelHxen0W",
+  "name": "Andrea",
+  "cognome": "aaa",
+  "animali": [
+    "dog"
+  ],
+  "nascita": "Thu Nov 11 1999 01:00:00 GMT+0100 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6407a5339c459e50e0b7245b"
+  },
+  "email": "aa@aa.it",
+  "password": "$2b$10$t3f9OqqLqcliZB8onzfvT.SUQClypM9xaboNLDh/DtBlO/Cw5sc72",
+  "name": "Andrea",
+  "cognome": "Cristiano",
+  "animali": [
+    "cat"
+  ],
+  "nascita": "Thu Nov 11 1999 01:00:00 GMT+0100 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6407cba89c459e50e0b724a3"
+  },
+  "email": "dio@cane.it",
+  "password": "$2b$10$l/8mgrF3K4Z6siJa.2JeMenB0HM5XepJmAuXG2aMpi2npVDBvoFGm",
+  "name": "Andrea",
+  "cognome": "Cristiano",
+  "animali": [
+    "Dog"
+  ],
+  "nascita": "Thu Nov 11 1999 01:00:00 GMT+0100 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6409b7049c459e50e0b72500"
+  },
+  "email": "porco@cane.it",
+  "password": "$2b$10$4xi3YIHfAnaHENJjzqVj9unLl.nNebuxWuJDYZbPvokEERYhmXph.",
+  "name": "Andrea",
+  "cognome": "Ciao",
+  "animali": [
+    "Cat"
+  ],
+  "nascita": "Thu Nov 11 1999 01:00:00 GMT+0100 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6411fedc4dcd90b3ea38520f"
+  },
+  "email": "porco@dio.it",
+  "password": "$2b$10$3FKPuDg/hs4dwYJH3enWBO/G8lqwLW/WDOaJnsqAOHFQkmarAWSgO",
+  "name": "Andrea",
+  "cognome": "Cristiano",
+  "animali": [
+    "bird"
+  ],
+  "nascita": "Sun Dec 12 1999 01:00:00 GMT+0100 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641215f34dcd90b3ea3852b1"
+  },
+  "email": "paolocristiano@email.it",
+  "password": "$2b$10$m1U7OIE1vbFWabpJDqwrHebq5WSUC9hYqw9BRKgILUoKSTVjc2WQq",
+  "name": "Paolo",
+  "cognome": "Cristiano",
+  "animali": [
+    "dog"
+  ],
+  "nascita": "Sat Jun 25 2005 02:00:00 GMT+0200 (Ora legale dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6412f2341650326b6dcf0842"
+  },
+  "email": "diocane@dio.it",
+  "password": "$2b$10$Tz9Hp1c0.Yr.nnOcPKGpXe6sjbc9KjdJIMLJ049sEjIHCBfDrU87y",
+  "name": "Andrea",
+  "cognome": "Cristiano",
+  "animali": [
+    "bird"
+  ],
+  "nascita": "Wed Dec 12 1212 00:49:56 GMT+0049 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6412f3b21650326b6dcf0855"
+  },
+  "email": "porco@ddio.it",
+  "password": "$2b$10$2kwRYQPZtvpaumblw.zQhefyfuWGCgDmQ6CS0vt7xeJYyJS1BHD.K",
+  "name": "Andrea",
+  "cognome": "Cristino",
+  "animali": [
+    "fish"
+  ],
+  "nascita": "Wed Dec 12 1212 00:49:56 GMT+0049 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6412f4e01650326b6dcf086a"
+  },
+  "email": "dio@cane.com",
+  "password": "$2b$10$jY1J/Nu/kNhXWVapiSX9femtz0c3ry4m5fLOF/7zmBt3/8JI.p.Q.",
+  "name": "andrea",
+  "cognome": "aaaa",
+  "animali": [
+    "cat"
+  ],
+  "nascita": "Sat Nov 12 2112 01:00:00 GMT+0100 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6412f57c1650326b6dcf086d"
+  },
+  "email": "diodio@cane.it",
+  "password": "$2b$10$K0UdBYS/k18xLyYEzMFFDeMXJ5KKrMaEtKF4LuHgP2B1YPdCev0xm",
+  "name": "Andrea",
+  "cognome": "crist",
+  "animali": [
+    "fish"
+  ],
+  "nascita": "Wed Dec 12 1212 00:49:56 GMT+0049 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6412f6411650326b6dcf0870"
+  },
+  "email": "aa@aaa.it",
+  "password": "$2b$10$q5GupBQzAHSa3DsLsug9we0mUkqnU8ohk1TTMN5YvEqWZ4sxiI1GG",
+  "name": "aaa",
+  "cognome": "aaaa",
+  "animali": [
+    "fish"
+  ],
+  "nascita": "Wed Dec 12 1212 00:49:56 GMT+0049 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6412fb81d48856b062f2766b"
+  },
+  "email": "ww@ww.it",
+  "password": "$2b$10$pYZtKz/3Uz0jc4E0FPCgAOOx769OG4T9C29ZEb9WioI/duXZDZX.u",
+  "name": "andr",
+  "cognome": "qwer",
+  "animali": [
+    "cat"
+  ],
+  "nascita": "Wed Dec 12 1212 00:49:56 GMT+0049 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6412fd9ac90c8ec68543322d"
+  },
+  "email": "ee@rr.it",
+  "password": "$2b$10$e6YGINxi9IH.rzd1VxrXhuqlAyLGqZx2qoMy3c6AGYamJITNAAtH6",
+  "name": "aaa",
+  "cognome": "aaaa",
+  "animali": [
+    "bird"
+  ],
+  "nascita": "Mon Dec 12 1222 00:49:56 GMT+0049 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6412fdc8c90c8ec685433232"
+  },
+  "email": "qqq@www.it",
+  "password": "$2b$10$sx4RZv1CSN923WmIZdwq7eJ3lgPFbXhIXMUon6N0lMUvexlh9sjsq",
+  "name": "aaa",
+  "cognome": "aaa",
+  "animali": [
+    "dog"
+  ],
+  "nascita": "Wed Dec 12 1212 00:49:56 GMT+0049 (Ora standard dell’Europa centrale)",
+  "sesso": "maschio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d8f4d00eb000dbf84df36"
+  },
+  "email": "ss@ss.it",
+  "password": "$2b$10$euDUzbDmYNyZ.ABBMhLshexFJIdjTpPIkCiITpKItRiFjEq2XdcBC",
+  "name": "ss",
+  "cognome": "sss",
+  "animale": "Dog",
+  "nascita": "Wed Dec 12 1212 00:49:56 GMT+0049 (Central European Standard Time)",
+  "sesso": "maschio",
+  "prodotti": [],
+  "servizi": [],
+  "__v": 0
+}]

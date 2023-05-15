@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "640db130a6b2a5286c7426fe"
+  },
+  "username": null,
+  "species": "dog",
+  "nameAnimal": "Andrea",
+  "age": 20,
+  "descrizione": "aaa",
+  "sex": "other",
+  "medicalConditions": "aaaaa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "640db1bd0c878903bd41b9bf"
+  },
+  "username": null,
+  "species": "dog",
+  "nameAnimal": "Andrea",
+  "age": 20,
+  "descrizione": "aaa",
+  "sex": "other",
+  "medicalConditions": "aaaaa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "640db26d0c878903bd41b9c4"
+  },
+  "username": "Andrea",
+  "species": "tiger",
+  "nameAnimal": "Andrea",
+  "age": 20,
+  "descrizione": "wwww",
+  "sex": "male",
+  "medicalConditions": "wwww",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6410bcfb8bca481e07896515"
+  },
+  "username": "Andrea",
+  "species": "tiger",
+  "nameAnimal": "peter",
+  "age": 20,
+  "descrizione": "gfehsdrjtf",
+  "sex": "female",
+  "medicalConditions": "y,kumjynhtbgrf",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6410befb1b080dc09abe1049"
+  },
+  "username": "Andrea",
+  "species": "monkey",
+  "nameAnimal": "Pietro",
+  "age": 20,
+  "descrizione": "alallalala",
+  "sex": "male",
+  "medicalConditions": "sgrwbebfv",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6410edef38089e6877bc6f6b"
+  },
+  "username": null,
+  "species": "Bear",
+  "nameAnimal": "Bubu",
+  "age": 23,
+  "descrizione": "Nu poco fesso, ma che ce vuoi fa.... ",
+  "sex": "male",
+  "medicalConditions": "Nguaiat",
+  "__v": 0
+}]
