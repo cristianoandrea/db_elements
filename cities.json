@@ -1,29 +1,21 @@
 [{
-  "_id": {
-    "$oid": "633c5f355cb116b095116d57"
-  },
+  
   "name": "Bologna",
-  "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4g1WdQLET9Ye98AZZaNNy6h9UzJBiSCv4V3Ha9u07H5Y8x2F8D+Rk2ZHVvvP8A247HY7E7Pfh/1/G4p2/3/g//2Q==",
-  "__v": 0
+  "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4g1WdQLET9Ye98AZZaNNy6h9UzJBiSCv4V3Ha9u07H5Y8x2F8D+Rk2ZHVvvP8A247HY7E7Pfh/1/G4p2/3/g//2Q=="
+  
 },{
-  "_id": {
-    "$oid": "633c7f6d227d0d267665c961"
-  },
+  
   "name": "Ancona",
-  "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoGCBUTExcTFRMYGBcZGR8ZGhoaGrvhHbMnBUA3GyFXE8CAOM096VehLbEFUmAqvMs4KyqtKzDcx3NPdLYtXEYAr5G4YQw2ztO4ckebsa8hZ1Haj11i172YW+5N1nFhwpIG1ixjttJYSeDzU+s6YMQgwykG5byhUkcwPix+VeN72NPqZPSj//2Q==",
-  "__v": 0
+  "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoGCBUTExcTFRMYGBcZGR8ZGhoaGrvhHbMnBUA3GyFXE8CAOM096VehLbEFUmAqvMs4KyqtKzDcx3NPdLYtXEYAr5G4YQw2ztO4ckebsa8hZ1Haj11i172YW+5N1nFhwpIG1ixjttJYSeDzU+s6YMQgwykG5byhUkcwPix+VeN72NPqZPSj//2Q=="
+  
 },{
-  "_id": {
-    "$oid": "633c7fa2227d0d267665c963"
-  },
+  
   "name": "Roma",
   "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxQUExYUFBQWFxYYGSEbGRkZGzAszAgnUDEbbg4rfhuqWXSNLRsDsbGLgzvvfDg//MCBwNZMbcQzbZlSgd9IboSTyk3+EDph9+mMf+Fa06qonrGgWntjMZjdl/5K/Bk09h+ZzLOXUe/8MZjMZi4k390//9k=",
-  "__v": 0
+  
 },{
-  "_id": {
-    "$oid": "633c7fc2227d0d267665c965"
-  },
+  
   "name": "Napoli",
   "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoGCBUTExcVFRYXGBcYGtQdhCOdpTcCbPG4GQd0kwAM+nah2v1R8wyGtuQVOSCI9ypwc57+1PSrvxMT1nNkFDaSaq25YmSkwdoIgSBxSpUqrUSf/2Q==",
-  "__v": 0
+  
 }]
