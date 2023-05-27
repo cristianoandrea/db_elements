@@ -1,12 +1,588 @@
 [{
   "_id": {
+    "$oid": "63fe2c2f6ca5b17e08e609a0"
+  },
+  "tipo": "Toelettatura",
+  "luogo": "Milano",
+  "nome_struttura": {
+    "nome": "Pet Paradise",
+    "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBgUFBQZGRgaGxgdGRkbGBoYGhsaGBoaGhgbGhsbIC0kGx0pHhoYJTclKS4wNDQ0GiM5PzkyPi0yNDABCwsLEA8QHhISHjIrJCsyMjs1MjIyMjIyMjI4OzIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyNDIyMjIyMjIyMjQyMv/AABEIALcBEwMBIgAClWfN+TLQ6Ln7ip70sZ11duevWlSpVnGH/2Q=="
+  },
+  "dottore": [
+    {
+      "nome": "Stefano",
+      "prezzo": 30,
+      "slot": {
+        "n_grandi": 7,
+        "n_medi": 6,
+        "n_piccoli": 10
+      },
+      "impegni": [
+        {
+          "dateiniz": {
+            "$date": {
+              "$numberLong": "1678233600000"
+            }
+          },
+          "_id": {
+            "$oid": "63fe2c2f6ca5b17e08e609a2"
+          }
+        },
+        {
+          "dateiniz": {
+            "$date": {
+              "$numberLong": "1678579200000"
+            }
+          },
+          "_id": {
+            "$oid": "63fe2c2f6ca5b17e08e609a3"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63fe2c2f6ca5b17e08e609a1"
+      }
+    },
+    {
+      "nome": "Roberta",
+      "prezzo": 35,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 6,
+        "n_piccoli": 12
+      },
+      "impegni": [
+        {
+          "dateiniz": {
+            "$date": {
+              "$numberLong": "1678665600000"
+            }
+          },
+          "_id": {
+            "$oid": "63fe2c2f6ca5b17e08e609a5"
+          }
+        },
+        {
+          "dateiniz": {
+            "$date": {
+              "$numberLong": "1678838400000"
+            }
+          },
+          "_id": {
+            "$oid": "63fe2c2f6ca5b17e08e609a6"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63fe2c2f6ca5b17e08e609a4"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63fe2f9e6ca5b17e08e609a8"
+  },
+  "tipo": "Dogsitting",
+  "luogo": "Roma",
+  "nome_struttura": {
+    "nome": "Doggy Haven",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp6iCqhfNZi-SBYiYByuvcrMcl_s83UX1dhA&usqp=CAU"
+  },
+  "dottore": [
+    {
+      "nome": "Servizio Standard",
+      "prezzo": 50,
+      "slot": {
+        "n_grandi": 10,
+        "n_medi": 12,
+        "n_piccoli": 15
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe2f9e6ca5b17e08e609a9"
+      }
+    },
+    {
+      "nome": "Servizio Premium",
+      "prezzo": 60,
+      "slot": {
+        "n_grandi": 8,
+        "n_medi": 10,
+        "n_piccoli": 13
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe2f9e6ca5b17e08e609aa"
+      }
+    },
+    {
+      "nome": "Servizio VIP",
+      "prezzo": 70,
+      "slot": {
+        "n_grandi": 6,
+        "n_medi": 8,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe2f9e6ca5b17e08e609ab"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63fe306b3e7b5296ef6c2410"
+  },
+  "tipo": "Veterinario",
+  "luogo": "Napoli",
+  "nome_struttura": {
+    "nome": "Pet Care Center",
+    "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhUYGRgYHBgaHBwYGhoaGh4YGBgZGhoYHBkcIS4lHB4sIRoYJjgnKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQrJCs0NDQ0NDQ0NDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAKkBKgMBIgACjkgS2Dml13tHr4CPfacWGCFfrGVHjmg9SFAhILm8MEFoQlIIbGtvOxJE0BCEcI2PWAzsZUewjxB8T9Y34CH0nvJrQejCIkB/9k="
+  },
+  "dottore": [
+    {
+      "nome": "Dr. Marco Rossi",
+      "prezzo": 80,
+      "slot": {
+        "n_grandi": 6,
+        "n_medi": 8,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe306b3e7b5296ef6c2411"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63fe307a3e7b5296ef6c2413"
+  },
+  "tipo": "Toelettatura",
+  "luogo": "Torino",
+  "nome_struttura": {
+    "nome": "Paw Spa",
+    "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRgVFhUYGBgYGBgaGBgYGBgYGBoYGBgZGhgYGhgcIS4lHB4rIRoYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQrJCs0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMSTqYdxBu8ZJJzy7OmJxROkrxB1nskAxykaYKSSFADs0kkkIT//2Q=="
+  },
+  "dottore": [
+    {
+      "nome": "Lisa Bianchi",
+      "prezzo": 30,
+      "slot": {
+        "n_grandi": 7,
+        "n_medi": 10,
+        "n_piccoli": 12
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe307a3e7b5296ef6c2414"
+      }
+    },
+    {
+      "nome": "Mario Rossi",
+      "prezzo": 35,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 6,
+        "n_piccoli": 8
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe307a3e7b5296ef6c2415"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63fe30933e7b5296ef6c2417"
+  },
+  "tipo": "Veterinario",
+  "luogo": "Firenze",
+  "nome_struttura": {
+    "nome": "Pet Health Clinic",
+    "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVFhUYGRgYGBkZGRgaGRgYGRwYGBgaGhgYGRgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHhISHjQlJSs0MTE0NDQxNDQ0NDQ0NDQ0NDc0NDQ0NDQ0NDQ0NDQxNDQxNDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAQMAwgMBIo4oooxDGMIooAPGiiiAYxGKKACiiigAMUUUQH//Z"
+  },
+  "dottore": [
+    {
+      "nome": "Dr. Alessandro Ferrari",
+      "prezzo": 60,
+      "slot": {
+        "n_grandi": 8,
+        "n_medi": 10,
+        "n_piccoli": 12
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe30933e7b5296ef6c2418"
+      }
+    },
+    {
+      "nome": "Dr. Anna Russo",
+      "prezzo": 70,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 7,
+        "n_piccoli": 9
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe30933e7b5296ef6c2419"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63fe30a03e7b5296ef6c241b"
+  },
+  "tipo": "Dogsitting",
+  "luogo": "Venezia",
+  "nome_struttura": {
+    "nome": "Furry Friends",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCPEzmFSdbNxEyT_skEpEgMYuPnLKCxkUnZg&usqp=CAU"
+  },
+  "dottore": [
+    {
+      "nome": "Servizio Standard",
+      "prezzo": 50,
+      "slot": {
+        "n_grandi": 7,
+        "n_medi": 10,
+        "n_piccoli": 12
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe30a03e7b5296ef6c241c"
+      }
+    },
+    {
+      "nome": "Servizio Premium",
+      "prezzo": 60,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 7,
+        "n_piccoli": 9
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe30a03e7b5296ef6c241d"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63fe31a13e7b5296ef6c241f"
+  },
+  "tipo": "Toelettatura",
+  "luogo": "Roma",
+  "nome_struttura": {
+    "nome": "Bau Resort",
+    "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFhYYGRgZHBocGBwYGhocGhoaGhocGRJwD5g/WP3qVKLMccCxpw9PR494NPA1SpRRmCYmVTEYyIgbi16AzGQZbggr7H2qVKDMUYeLaN15giR7H9aDzfC8NgSCUPQ+Jbn3H1qVKpxckkTnFPYsfg2LhHWANMzYiD6TPKq8bxNLAwRdQRcggzcR/ipUrsUIy8mQcmtFP4R1ajM28U9JAsPKj8DFI8un1/evalBpLQbYbh4h+/vqB70QuMRb76D9R7VKlNEDLRmDz+/v9q7THH39+fsKlSqxJsKw82y3Ukff37UXh8RBjUvqtvpsf7V5UpZ8cXtDqTRbmWWN5Hl+1K8QgtpPSB2LSgPoHNSpXFIuiZjIKVJHP5e2saF9lB96Dx8IJY3r2pUmVQDiZgmyiKqGFzJqVKxjg4gmBbvS3jjSir1J+in+alSjHYJaG3wziDQ4HPQ3/AJLH6qfemWLUqUJbCtAjGqMSvKlKYoqVKlAx/9k="
+  },
+  "dottore": [
+    {
+      "nome": "Maria",
+      "prezzo": 40,
+      "slot": {
+        "n_grandi": 10,
+        "n_medi": 5,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe31a13e7b5296ef6c2420"
+      }
+    },
+    {
+      "nome": "Giovanni",
+      "prezzo": 35,
+      "slot": {
+        "n_grandi": 8,
+        "n_medi": 6,
+        "n_piccoli": 12
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe31a13e7b5296ef6c2421"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63fe31b03e7b5296ef6c2423"
+  },
+  "tipo": "Veterinario",
+  "luogo": "Firenze",
+  "nome_struttura": {
+    "nome": "Clinica Animale",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxHqSbldXwIDv48w4Y7MdGetbhpAKHaMDuZQ&usqp=CAU"
+  },
+  "dottore": [
+    {
+      "nome": "Francesca",
+      "prezzo": 60,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 5,
+        "n_piccoli": 10
+      },
+      "impegni": [
+        {
+          "dateiniz": {
+            "$date": {
+              "$numberLong": "1678280880000"
+            }
+          },
+          "_id": {
+            "$oid": "64087ad5ae5fb97401d18c2d"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63fe31b03e7b5296ef6c2424"
+      }
+    },
+    {
+      "nome": "Antonio",
+      "prezzo": 75,
+      "slot": {
+        "n_grandi": 7,
+        "n_medi": 8,
+        "n_piccoli": 12
+      },
+      "impegni": [
+        {
+          "dateiniz": {
+            "$date": {
+              "$numberLong": "1678280580000"
+            }
+          },
+          "_id": {
+            "$oid": "64087996ae5fb97401d18c1f"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63fe31b03e7b5296ef6c2425"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63fe31bb3e7b5296ef6c2427"
+  },
+  "tipo": "Dogsitting",
+  "luogo": "Napoli",
+  "nome_struttura": {
+    "nome": "Dog Paradise",
+    "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBgVFRQYGRgaGx4bHBsbGxobGxsbGiAaIB0bIBsdIi0kGx4pHhoaJTclKS4wNDQ0GiM5PzkyPi0yNDABCwsLEA8QHhISHjQpJCsyMjIyMjIyMjQ1MjIyMjIyMjIyMjIyMjIyMjAyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIALUBoVUABE5JMfTjEdftSpV5vFMA/U7Nc1OcRGnEZ8Sc7yfHlFKlSoTSvoU/9k="
+  },
+  "dottore": [
+    {
+      "nome": "Servizio Standard",
+      "prezzo": 30,
+      "slot": {
+        "n_grandi": 8,
+        "n_medi": 5,
+        "n_piccoli": 10
+      },
+      "_id": {
+        "$oid": "63fe31bb3e7b5296ef6c2428"
+      },
+      "impegni": [
+        {
+          "dateiniz": {
+            "$date": {
+              "$numberLong": "1678119000000"
+            }
+          },
+          "datefin": {
+            "$date": {
+              "$numberLong": "1678119000000"
+            }
+          },
+          "n_grandi": 0,
+          "n_medi": 1,
+          "n_piccoli": 0,
+          "_id": {
+            "$oid": "64060263a49a9e682ece9cf3"
+          }
+        }
+      ]
+    },
+    {
+      "nome": "Servizio Standard",
+      "prezzo": 25,
+      "slot": {
+        "n_grandi": 6,
+        "n_medi": 8,
+        "n_piccoli": 12
+      },
+      "_id": {
+        "$oid": "63fe31bb3e7b5296ef6c2429"
+      },
+      "impegni": [
+        {
+          "dateiniz": {
+            "$date": {
+              "$numberLong": "1678373640000"
+            }
+          },
+          "datefin": {
+            "$date": {
+              "$numberLong": "1678632840000"
+            }
+          },
+          "n_grandi": 0,
+          "n_medi": 2,
+          "n_piccoli": 0,
+          "_id": {
+            "$oid": "6409ea779715436bfd01e3fc"
+          }
+        },
+        {
+          "dateiniz": {
+            "$date": {
+              "$numberLong": "1678912140000"
+            }
+          },
+          "datefin": {
+            "$date": {
+              "$numberLong": "1678998540000"
+            }
+          },
+          "n_grandi": 0,
+          "n_medi": 7,
+          "n_piccoli": 0,
+          "_id": {
+            "$oid": "6412284adfc6fb710860fac7"
+          }
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63fe31c53e7b5296ef6c242b"
+  },
+  "tipo": "Toelettatura",
+  "luogo": "Bologna",
+  "nome_struttura": {
+    "nome": "Pettorina Felice",
+    "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBISEhUREhURERgRGBgSEhERERESGBgRGRg+lvZ4tgO5gar9e6ENGvfXARuJwr4+ENT54V+eg1d42XPiyj6An3ED6QNtsz1h7QUpZr/cS/ocB9hAukLtNmes6eHDwfza+uVmXcN4Mj0hZhBl3rvBkekKsJStOcw6GL7PMmR5wnWhi5X3bc3sJdZ5kyK9HnBavt96eUQW7TJkosI1o1o+yMh0mlo+ByMyZEKH/2Q=="
+  },
+  "dottore": [
+    {
+      "nome": "Carla",
+      "prezzo": 35,
+      "slot": {
+        "n_grandi": 7,
+        "n_medi": 6,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe31c53e7b5296ef6c242c"
+      }
+    },
+    {
+      "nome": "Daniele",
+      "prezzo": 30,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 6,
+        "n_piccoli": 12
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe31c53e7b5296ef6c242d"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63fe364c81d5352b21c27e82"
+  },
+  "tipo": "Toelettatura",
+  "luogo": "Roma",
+  "nome_struttura": {
+    "nome": "Canili di Roma",
+    "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVFRUZGBgYGBIYGBgVGBUYXiiigCiiig0KKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAGVcRgadQ3ZEY9Sqk/cRRSBEtKkFACgADYAAAegkkUUAUUUUoFFFFAFFFFAP/Z"
+  },
+  "dottore": [
+    {
+      "nome": "Giuseppe",
+      "prezzo": 25,
+      "slot": {
+        "n_grandi": 8,
+        "n_medi": 6,
+        "n_piccoli": 12
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe364c81d5352b21c27e83"
+      }
+    },
+    {
+      "nome": "Paolo",
+      "prezzo": 35,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 7,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe364c81d5352b21c27e84"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63fe370a81d5352b21c27e86"
+  },
+  "tipo": "Toelettatura",
+  "luogo": "Roma",
+  "nome_struttura": {
+    "nome": "Amici Pelosi",
+    "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVEhgVEhUZGBIYGBgSGRgZGRwYFRoYGBgaGhgYGBgcIS4lHB4rHxkaJjgnKy8xNTU1HCU7QDs0Py40NjEBDAwMEA8QHxISHjQrISQ0NDYxNDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0MTQ0NDQ0NDQ0NzQ0NDE0NDQ0MTQ0NDQ0NP/AABEIAJUBUgMByUpv7MXbMld130IBGvhaY+P8AZeulQVBilKg3ye4NrdL+8v5xITIRDiaJY2uBrrofQdrT5xeF0Wo1vdq90PZAZb2F+WvfCEiB3dNdAOVow0x0HpFhNgz8dwPD1TerTVj11H0MxMT7A4R75c6f4tcejAwhN26OTiuQ7D+xop08gxNQoRcAgHL3A9JYT2eyBQKz9nUaL9wYQmF2dPhfp4QJoCT3neOZYQnUwRMsYVhCUgwrG5YsJTImWLCEFP/Z"
+  },
+  "dottore": [
+    {
+      "nome": "Maria",
+      "prezzo": 40,
+      "slot": {
+        "n_grandi": 10,
+        "n_medi": 8,
+        "n_piccoli": 12
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe370a81d5352b21c27e87"
+      }
+    },
+    {
+      "nome": "Luigi",
+      "prezzo": 30,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 6,
+        "n_piccoli": 8
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "63fe370a81d5352b21c27e88"
+      }
+    }
+  ]
+},{
+  "_id": {
     "$oid": "63fe371581d5352b21c27e8a"
   },
   "tipo": "Veterinario",
   "luogo": "Napoli",
   "nome_struttura": {
     "nome": "Casa degli Animali",
-    "img": "https://picsum.photos/200/300"
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEcy8GLmP3cLs-jVt2cQvTcafP6_k8qVypxw&usqp=CAU"
   },
   "dottore": [
     {
@@ -33,10 +609,12 @@
       "impegni": [
         {
           "dateiniz": {
-            "$date": "2023-03-01T12:30:00.000Z"
+            "$date": {
+              "$numberLong": "1678823580000"
+            }
           },
           "_id": {
-            "$oid": "63ffaf0c7d0ca3e61223524a"
+            "$oid": "6410c2b75759f197ea63d26a"
           }
         }
       ],
@@ -44,8 +622,7 @@
         "$oid": "63fe371581d5352b21c27e8c"
       }
     }
-  ],
-  "__v": 0
+  ]
 },{
   "_id": {
     "$oid": "63fe372081d5352b21c27e8e"
@@ -54,11 +631,11 @@
   "luogo": "Firenze",
   "nome_struttura": {
     "nome": "Cani al Parco",
-    "img": "https://picsum.photos/200/300"
+    "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUUFBcVFRUYGBcZGh0cGhoaGiAdHRky8xIwslJrcbHPTKwH/Ejs2P8A5FMedRR5mzexsfY9cF+y9ScrQXVJWmI/EAegt7YYWqLWoaiJEEEG9tmU9fzjCFWdslUNNSSnxIDvpJ29VNvl1w0J3ydWN1P7D5mVStReixIWosW3Hp7j7sBMt2ZytKm6Gn3hYQ7PBZh5fVv0vIBwDXtWo3kHnacQ1O1wIIE/v9/fi2rYrcVuMHZcGnTqUWJYUahVDvKEB0+5owUep0Rj8h+JGKHBqbi4jffHuMxmYibYep/DFhd8ZjMZGPcZjMZggP//Z"
   },
   "dottore": [
     {
-      "nome": "Giuseppe",
+      "nome": "Servizio Standard",
       "prezzo": 25,
       "slot": {
         "n_grandi": 5,
@@ -68,10 +645,14 @@
       "impegni": [
         {
           "dateiniz": {
-            "$date": "2023-03-20T19:39:00.000Z"
+            "$date": {
+              "$numberLong": "1679341140000"
+            }
           },
           "datefin": {
-            "$date": "2023-03-21T19:39:00.000Z"
+            "$date": {
+              "$numberLong": "1679427540000"
+            }
           },
           "n_grandi": 0,
           "n_medi": 1,
@@ -86,7 +667,7 @@
       }
     },
     {
-      "nome": "Anna",
+      "nome": "Servizio Premium",
       "prezzo": 30,
       "slot": {
         "n_grandi": 3,
@@ -98,132 +679,1115 @@
         "$oid": "63fe372081d5352b21c27e90"
       }
     }
-  ],
-  "__v": 0
+  ]
 },{
   "_id": {
-    "$oid": "641ec9bb6e0e00c71f26f2a3"
+    "$oid": "6411e4407e6cb506678c562d"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Toelettatura",
+  "luogo": "Milano",
+  "nome_struttura": {
+    "nome": "Pet Spa Milano",
+    "img": "https://example.com/pet-spa-milano.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Maria Rossi",
+      "prezzo": 30,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 7,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "6411e4407e6cb506678c562e"
+      }
+    },
+    {
+      "nome": "Luigi Verdi",
+      "prezzo": 40,
+      "slot": {
+        "n_grandi": 7,
+        "n_medi": 5,
+        "n_piccoli": 8
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "6411e4407e6cb506678c562f"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ecdbd6e0e00c71f26f2a5"
+    "$oid": "6411e4557e6cb506678c5631"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Dogsitting",
+  "luogo": "Roma",
+  "nome_struttura": {
+    "nome": "Casa del Cane",
+    "img": "https://example.com/casa-del-cane.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Servizio Standard",
+      "prezzo": 20,
+      "slot": {
+        "n_grandi": 3,
+        "n_medi": 5,
+        "n_piccoli": 7
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "6411e4557e6cb506678c5632"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ecdc96e0e00c71f26f2a7"
+    "$oid": "6411e46c7e6cb506678c5634"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Veterinario",
+  "luogo": "Bologna",
+  "nome_struttura": {
+    "nome": "Clinica Veterinaria San Lazzaro",
+    "img": "https://example.com/clinica-veterinaria.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Roberto Bianchi",
+      "prezzo": 80,
+      "slot": {
+        "n_grandi": 3,
+        "n_medi": 5,
+        "n_piccoli": 7
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "6411e46c7e6cb506678c5635"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ecdd16e0e00c71f26f2a9"
+    "$oid": "6411e4797e6cb506678c5637"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Psicologo",
+  "luogo": "Firenze",
+  "nome_struttura": {
+    "nome": "Centro di Aiuto Psicologico",
+    "img": "https://example.com/centro-psicologico.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Silvia Neri",
+      "prezzo": 60,
+      "slot": {
+        "n_grandi": 2,
+        "n_medi": 3,
+        "n_piccoli": 5
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "6411e4797e6cb506678c5638"
+      }
+    },
+    {
+      "nome": "Marco Rossi",
+      "prezzo": 50,
+      "slot": {
+        "n_grandi": 3,
+        "n_medi": 4,
+        "n_piccoli": 6
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "6411e4797e6cb506678c5639"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ecdd96e0e00c71f26f2ab"
+    "$oid": "64122e8bdfc6fb710860fae3"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Veterinario",
+  "luogo": "Roma",
+  "nome_struttura": {
+    "nome": "Clinica Veterinaria Roma",
+    "img": "https://www.example.com/images/clinica-veterinaria-roma.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Mario Rossi",
+      "prezzo": 50,
+      "slot": {
+        "n_grandi": 8,
+        "n_medi": 10,
+        "n_piccoli": 6
+      },
+      "impegni": [
+        {
+          "dateiniz": {
+            "$date": {
+              "$numberLong": "1679256660000"
+            }
+          },
+          "_id": {
+            "$oid": "64175f85e859f279f1ec266f"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64122e8bdfc6fb710860fae4"
+      }
+    },
+    {
+      "nome": "Giulia Bianchi",
+      "prezzo": 45,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 8,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64122e8bdfc6fb710860fae5"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ecde56e0e00c71f26f2ad"
+    "$oid": "641230d1dfc6fb710860fae7"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Veterinario",
+  "luogo": "Roma",
+  "nome_struttura": {
+    "nome": "Clinica Veterinaria Roma",
+    "img": "https://example.com/image.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Giovanni Rossi",
+      "prezzo": 60,
+      "slot": {
+        "n_grandi": 6,
+        "n_medi": 8,
+        "n_piccoli": 9
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "641230d1dfc6fb710860fae8"
+      }
+    },
+    {
+      "nome": "Sara Ricci",
+      "prezzo": 50,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 7,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "641230d1dfc6fb710860fae9"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ecdee6e0e00c71f26f2af"
+    "$oid": "641230e3dfc6fb710860faeb"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Dogsitting",
+  "luogo": "Bari",
+  "nome_struttura": {
+    "nome": "Happy Pets",
+    "img": "https://example.com/image.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Servizio standard",
+      "prezzo": 25,
+      "slot": {
+        "n_grandi": 9,
+        "n_medi": 10,
+        "n_piccoli": 6
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "641230e3dfc6fb710860faec"
+      }
+    },
+    {
+      "nome": "Servizio standard",
+      "prezzo": 20,
+      "slot": {
+        "n_grandi": 7,
+        "n_medi": 8,
+        "n_piccoli": 5
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "641230e3dfc6fb710860faed"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ecdf86e0e00c71f26f2b1"
+    "$oid": "64123117dfc6fb710860faef"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Psicologo",
+  "luogo": "Milano",
+  "nome_struttura": {
+    "nome": "Centro Psicologico Milano",
+    "img": "https://example.com/image.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Laura Rossi",
+      "prezzo": 80,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 7,
+        "n_piccoli": 9
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64123117dfc6fb710860faf0"
+      }
+    },
+    {
+      "nome": "Mario Bianchi",
+      "prezzo": 75,
+      "slot": {
+        "n_grandi": 8,
+        "n_medi": 6,
+        "n_piccoli": 4
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64123117dfc6fb710860faf1"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ecdff6e0e00c71f26f2b3"
+    "$oid": "641361ee33ae7da8cc2cc119"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Toelettatura",
+  "luogo": "Bologna",
+  "nome_struttura": {
+    "nome": "Pelu'",
+    "img": "https://www.example.com/pelu.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Giulia",
+      "prezzo": 30,
+      "slot": {
+        "n_grandi": 8,
+        "n_medi": 10,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "641361ee33ae7da8cc2cc11a"
+      }
+    },
+    {
+      "nome": "Luca",
+      "prezzo": 25,
+      "slot": {
+        "n_grandi": 7,
+        "n_medi": 9,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "641361ee33ae7da8cc2cc11b"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ece076e0e00c71f26f2b5"
+    "$oid": "6413620033ae7da8cc2cc11d"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Dogsitting",
+  "luogo": "Roma",
+  "nome_struttura": {
+    "nome": "Paws & Claws",
+    "img": "https://www.example.com/paws-and-claws.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Servizio standard",
+      "prezzo": 20,
+      "slot": {
+        "n_grandi": 10,
+        "n_medi": 10,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "6413620033ae7da8cc2cc11e"
+      }
+    },
+    {
+      "nome": "Servizio premium",
+      "prezzo": 25,
+      "slot": {
+        "n_grandi": 10,
+        "n_medi": 10,
+        "n_piccoli": 8
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "6413620033ae7da8cc2cc11f"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ece116e0e00c71f26f2b7"
+    "$oid": "6413621f33ae7da8cc2cc121"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Psicologo",
+  "luogo": "Milano",
+  "nome_struttura": {
+    "nome": "Mind & Body",
+    "img": "https://www.example.com/mind-and-body.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Maria",
+      "prezzo": 80,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 7,
+        "n_piccoli": 8
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "6413621f33ae7da8cc2cc122"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ece186e0e00c71f26f2b9"
+    "$oid": "6413623433ae7da8cc2cc124"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Veterinario",
+  "luogo": "Napoli",
+  "nome_struttura": {
+    "nome": "Animal Care",
+    "img": "https://www.example.com/animal-care.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Giovanni",
+      "prezzo": 50,
+      "slot": {
+        "n_grandi": 6,
+        "n_medi": 6,
+        "n_piccoli": 8
+      },
+      "impegni": [
+        {
+          "dateiniz": {
+            "$date": {
+              "$numberLong": "1679509140000"
+            }
+          },
+          "_id": {
+            "$oid": "641b38caef28e22c314f1c3a"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6413623433ae7da8cc2cc125"
+      }
+    },
+    {
+      "nome": "Chiara",
+      "prezzo": 60,
+      "slot": {
+        "n_grandi": 7,
+        "n_medi": 7,
+        "n_piccoli": 7
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "6413623433ae7da8cc2cc126"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ece1d6e0e00c71f26f2bb"
+    "$oid": "6413624033ae7da8cc2cc128"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Veterinario",
+  "luogo": "Napoli",
+  "nome_struttura": {
+    "nome": "Animal Care",
+    "img": "https://www.example.com/animal-care.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Giovanni",
+      "prezzo": 50,
+      "slot": {
+        "n_grandi": 6,
+        "n_medi": 6,
+        "n_piccoli": 8
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "6413624033ae7da8cc2cc129"
+      }
+    },
+    {
+      "nome": "Chiara",
+      "prezzo": 60,
+      "slot": {
+        "n_grandi": 7,
+        "n_medi": 7,
+        "n_piccoli": 7
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "6413624033ae7da8cc2cc12a"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ece246e0e00c71f26f2bd"
+    "$oid": "6413624d33ae7da8cc2cc12c"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Toelettatura",
+  "luogo": "Roma",
+  "nome_struttura": {
+    "nome": "Il Fido Felice",
+    "img": "https://example.com/img/il-fido-felice.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Marco Rossi",
+      "prezzo": 35,
+      "slot": {
+        "n_grandi": 6,
+        "n_medi": 7,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "6413624d33ae7da8cc2cc12d"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ece2a6e0e00c71f26f2bf"
+    "$oid": "6413626333ae7da8cc2cc12f"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Dogsitting",
+  "luogo": "Milano",
+  "nome_struttura": {
+    "nome": "Il Cuore di Fido",
+    "img": "https://example.com/img/il-cuore-di-fido.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Servizio premium",
+      "prezzo": 25,
+      "slot": {
+        "n_grandi": 3,
+        "n_medi": 5,
+        "n_piccoli": 8
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "6413626333ae7da8cc2cc130"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ece326e0e00c71f26f2c1"
+    "$oid": "641363dd33ae7da8cc2cc132"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Psicologo",
+  "luogo": "Firenze",
+  "nome_struttura": {
+    "nome": "Studio di Psicologia Toscana",
+    "img": "https://www.example.com/images/psicologia-toscana.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Dr. Luca Rossi",
+      "prezzo": 80,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 8,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "641363dd33ae7da8cc2cc133"
+      }
+    },
+    {
+      "nome": "Dott.ssa Maria Bianchi",
+      "prezzo": 75,
+      "slot": {
+        "n_grandi": 4,
+        "n_medi": 6,
+        "n_piccoli": 8
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "641363dd33ae7da8cc2cc134"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ece3a6e0e00c71f26f2c3"
+    "$oid": "641363ec33ae7da8cc2cc136"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Psicologo",
+  "luogo": "Milano",
+  "nome_struttura": {
+    "nome": "Centro di Psicologia Lombardia",
+    "img": "https://www.example.com/images/centro-psicologia-lombardia.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Dr. Giuseppe Verdi",
+      "prezzo": 90,
+      "slot": {
+        "n_grandi": 6,
+        "n_medi": 7,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "641363ec33ae7da8cc2cc137"
+      }
+    },
+    {
+      "nome": "Dott.ssa Laura Bianchi",
+      "prezzo": 85,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 8,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "641363ec33ae7da8cc2cc138"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ece426e0e00c71f26f2c5"
+    "$oid": "64217a803c46526f9a8acfbf"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Psicologo",
+  "luogo": "Napoli",
+  "nome_struttura": {
+    "nome": "Mente Sana",
+    "img": "https://example.com/images/mente-sana.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Silvia Bianchi",
+      "prezzo": 80,
+      "slot": {
+        "n_grandi": 4,
+        "n_medi": 6,
+        "n_piccoli": 8
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217a803c46526f9a8acfc0"
+      }
+    },
+    {
+      "nome": "Francesco Verdi",
+      "prezzo": 90,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 7,
+        "n_piccoli": 9
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217a803c46526f9a8acfc1"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ece486e0e00c71f26f2c7"
+    "$oid": "64217a943c46526f9a8acfc3"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Dogsitting",
+  "luogo": "Roma",
+  "nome_struttura": {
+    "nome": "Puppy Love",
+    "img": "https://example.com/images/puppy-love.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Servizio premium",
+      "prezzo": 25,
+      "slot": {
+        "n_grandi": 2,
+        "n_medi": 4,
+        "n_piccoli": 6
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217a943c46526f9a8acfc4"
+      }
+    },
+    {
+      "nome": "Servizio VIP",
+      "prezzo": 30,
+      "slot": {
+        "n_grandi": 3,
+        "n_medi": 5,
+        "n_piccoli": 7
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217a943c46526f9a8acfc5"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ece4e6e0e00c71f26f2c9"
+    "$oid": "64217aa13c46526f9a8acfc7"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Toelettatura",
+  "luogo": "Bologna",
+  "nome_struttura": {
+    "nome": "La Bella Cagnolina",
+    "img": "https://example.com/images/la-bella-cagnolina.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Mario Rossi",
+      "prezzo": 50,
+      "slot": {
+        "n_grandi": 6,
+        "n_medi": 8,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217aa13c46526f9a8acfc8"
+      }
+    },
+    {
+      "nome": "Giulia Bianchi",
+      "prezzo": 40,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 7,
+        "n_piccoli": 9
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217aa13c46526f9a8acfc9"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "641ece556e0e00c71f26f2cb"
+    "$oid": "64217ab33c46526f9a8acfcb"
   },
-  "dottore": [],
-  "__v": 0
+  "tipo": "Veterinario",
+  "luogo": "Milano",
+  "nome_struttura": {
+    "nome": "Clinica Veterinaria San Siro",
+    "img": "https://www.example.com/clinic-san-siro.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Mario Rossi",
+      "prezzo": 60,
+      "slot": {
+        "n_grandi": 7,
+        "n_medi": 8,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217ab33c46526f9a8acfcc"
+      }
+    },
+    {
+      "nome": "Paolo Bianchi",
+      "prezzo": 75,
+      "slot": {
+        "n_grandi": 9,
+        "n_medi": 7,
+        "n_piccoli": 6
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217ab33c46526f9a8acfcd"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64217abe3c46526f9a8acfcf"
+  },
+  "tipo": "Dogsitting",
+  "luogo": "Napoli",
+  "nome_struttura": {
+    "nome": "Coccole per Cani",
+    "img": "https://www.example.com/coccole-per-cani.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Servizio premium",
+      "prezzo": 25,
+      "slot": {
+        "n_grandi": 4,
+        "n_medi": 5,
+        "n_piccoli": 6
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217abe3c46526f9a8acfd0"
+      }
+    },
+    {
+      "nome": "Servizio standard",
+      "prezzo": 20,
+      "slot": {
+        "n_grandi": 3,
+        "n_medi": 4,
+        "n_piccoli": 5
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217abe3c46526f9a8acfd1"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64217ac73c46526f9a8acfd3"
+  },
+  "tipo": "Psicologo",
+  "luogo": "Roma",
+  "nome_struttura": {
+    "nome": "Studio Psicologico del Corso",
+    "img": "https://www.example.com/studio-psicologico.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Laura Rossi",
+      "prezzo": 70,
+      "slot": {
+        "n_grandi": 6,
+        "n_medi": 7,
+        "n_piccoli": 8
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217ac73c46526f9a8acfd4"
+      }
+    },
+    {
+      "nome": "Roberto Verdi",
+      "prezzo": 60,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 6,
+        "n_piccoli": 7
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217ac73c46526f9a8acfd5"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64217af83c46526f9a8acfd7"
+  },
+  "tipo": "Dogsitting",
+  "luogo": "Milano",
+  "nome_struttura": {
+    "nome": "Pets' Paradise",
+    "img": "https://picsum.photos/id/201/300/200"
+  },
+  "dottore": [
+    {
+      "nome": "Servizio standard",
+      "prezzo": 25,
+      "slot": {
+        "n_grandi": 4,
+        "n_medi": 6,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217af83c46526f9a8acfd8"
+      }
+    },
+    {
+      "nome": "Servizio standard",
+      "prezzo": 22,
+      "slot": {
+        "n_grandi": 3,
+        "n_medi": 8,
+        "n_piccoli": 9
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217af83c46526f9a8acfd9"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64217b043c46526f9a8acfdb"
+  },
+  "tipo": "Veterinario",
+  "luogo": "Bologna",
+  "nome_struttura": {
+    "nome": "VetCare",
+    "img": "https://picsum.photos/id/203/300/200"
+  },
+  "dottore": [
+    {
+      "nome": "Giovanni Verdi",
+      "prezzo": 40,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 5,
+        "n_piccoli": 5
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217b043c46526f9a8acfdc"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64217b1b3c46526f9a8acfde"
+  },
+  "tipo": "Psicologo",
+  "luogo": "Firenze",
+  "nome_struttura": {
+    "nome": "MindCare",
+    "img": "https://picsum.photos/id/205/300/200"
+  },
+  "dottore": [
+    {
+      "nome": "Paolo Neri",
+      "prezzo": 70,
+      "slot": {
+        "n_grandi": 3,
+        "n_medi": 3,
+        "n_piccoli": 4
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217b1b3c46526f9a8acfdf"
+      }
+    },
+    {
+      "nome": "Maria Rossi",
+      "prezzo": 60,
+      "slot": {
+        "n_grandi": 2,
+        "n_medi": 2,
+        "n_piccoli": 3
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217b1b3c46526f9a8acfe0"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64217b7e3c46526f9a8acfe2"
+  },
+  "tipo": "Toelettatura",
+  "luogo": "Roma",
+  "nome_struttura": {
+    "nome": "BeautyPet",
+    "img": "https://picsum.photos/id/207/300/200"
+  },
+  "dottore": [
+    {
+      "nome": "Sara Bianchi",
+      "prezzo": 35,
+      "slot": {
+        "n_grandi": 4,
+        "n_medi": 6,
+        "n_piccoli": 8
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217b7e3c46526f9a8acfe3"
+      }
+    },
+    {
+      "nome": "Luigi Verdi",
+      "prezzo": 30,
+      "slot": {
+        "n_grandi": 3,
+        "n_medi": 7,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217b7e3c46526f9a8acfe4"
+      }
+    },
+    {
+      "nome": "Anna Esposito",
+      "prezzo": 40,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 7,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217b7e3c46526f9a8acfe5"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64217d263c46526f9a8acfe7"
+  },
+  "tipo": "Veterinario",
+  "luogo": "Milano",
+  "nome_struttura": {
+    "nome": "Clinica Veterinaria San Paolo",
+    "img": "https://example.com/clinica-veterinaria-san-paolo.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Dott. Marco Rossi",
+      "prezzo": 80,
+      "slot": {
+        "n_grandi": 5,
+        "n_medi": 8,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217d263c46526f9a8acfe8"
+      }
+    },
+    {
+      "nome": "Dott.ssa Giulia Bianchi",
+      "prezzo": 70,
+      "slot": {
+        "n_grandi": 6,
+        "n_medi": 7,
+        "n_piccoli": 9
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217d263c46526f9a8acfe9"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64217e233c46526f9a8acfeb"
+  },
+  "tipo": "Psicologo",
+  "luogo": "Firenze",
+  "nome_struttura": {
+    "nome": "Studio Psicologico del Ponte",
+    "img": "https://example.com/studio-psicologico-del-ponte.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Dott.ssa Laura Bianchi",
+      "prezzo": 100,
+      "slot": {
+        "n_grandi": 4,
+        "n_medi": 6,
+        "n_piccoli": 8
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217e233c46526f9a8acfec"
+      }
+    },
+    {
+      "nome": "Dott. Marco Rossi",
+      "prezzo": 120,
+      "slot": {
+        "n_grandi": 3,
+        "n_medi": 5,
+        "n_piccoli": 7
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217e233c46526f9a8acfed"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64217e743c46526f9a8acfef"
+  },
+  "tipo": "Dogsitting",
+  "luogo": "Roma",
+  "nome_struttura": {
+    "nome": "Dog's Home",
+    "img": "https://example.com/dogs-home.jpg"
+  },
+  "dottore": [
+    {
+      "nome": "Servizio standard",
+      "prezzo": 25,
+      "slot": {
+        "n_grandi": 10,
+        "n_medi": 10,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217e743c46526f9a8acff0"
+      }
+    },
+    {
+      "nome": "Servizio premium",
+      "prezzo": 30,
+      "slot": {
+        "n_grandi": 7,
+        "n_medi": 9,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217e743c46526f9a8acff1"
+      }
+    },
+    {
+      "nome": "Servizio VIP",
+      "prezzo": 40,
+      "slot": {
+        "n_grandi": 7,
+        "n_medi": 9,
+        "n_piccoli": 10
+      },
+      "impegni": [],
+      "_id": {
+        "$oid": "64217e743c46526f9a8acff2"
+      }
+    }
+  ]
 }]
